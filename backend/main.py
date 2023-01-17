@@ -57,9 +57,6 @@ async def delete(id: str):
 async def delete(id: str):
     item = await delete_avion(id)
     return Avion(**item)
-   
-@app.put("/update_avion/{id}")
-
 
 @app.delete("/delete_user/{username}")
 async def delete(username: str):
