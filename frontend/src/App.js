@@ -31,7 +31,6 @@ const App = () => {
         <NavRoute path='/forms' exact component={Form} />
         <NavRoute path='/footer' exact component={Footer} />
         <Route exactly component={Dashboard} pattern="/dashboard" />
-        
       </Switch>
     </Router>
     <Footer1 />
